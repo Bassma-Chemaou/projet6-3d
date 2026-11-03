@@ -1,0 +1,21 @@
+# Configuration du VAE de nuages de points (etape A4) - valeurs de depart du guide
+seed: 42
+data:
+  categories: [chair, table, sofa, bed]
+  n_points: 2048
+  val_fraction: 0.15
+model:
+  latent_dim: 128
+  encoder_channels: [64, 128, 256, 512]
+  decoder_hidden: [512, 1024]
+train:
+  optimizer: adam
+  lr: 1.0e-3
+  batch_size: 32
+  epochs: 300
+  beta_max: 1.0e-3      # annealing de 0 a beta_max
+  augment_rotation_y: true
+  noise_std: 0.01
+paths:
+  checkpoints: /content/drive/MyDrive/projet6-3d/checkpoints
+  results: results/exemples_generes

@@ -1,0 +1,16 @@
+# Configuration de reference 3DGS (essai E0) - a completer apres la capture
+seed: 42
+scene:
+  name: scene_maquillage
+  path: data/scene
+colmap:
+  camera_model: OPENCV
+train:
+  resolution: 2          # option -r 2 ; passer a 4 si VRAM > 12 Go
+  iterations: 30000
+  sh_degree: 3
+  eval: true             # 1 vue sur 8 gardee pour le test
+  densify_grad_threshold: 0.0002
+paths:
+  output: output/base
+  checkpoints: /content/drive/MyDrive/projet6-3d/gs

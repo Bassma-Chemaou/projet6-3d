@@ -1,0 +1,28 @@
+# Versions minimales testées sur Colab (à figer avec `pip freeze` une fois l'environnement stable)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+tqdm>=4.66
+pyyaml>=6.0
+
+# Données 3D
+trimesh>=4.0
+scikit-image>=0.22
+networkx>=3.2
+rtree>=1.1
+
+# Évaluation
+scikit-learn>=1.3
+
+# Démo
+gradio>=4.0
+plotly>=5.18
+
+# Reconstruction (partie B)
+plyfile>=1.0
+opencv-python-headless>=4.8
+lpips>=0.1.4
+
+# PyTorch : déjà installé sur Colab, ne pas réinstaller
+# torch
