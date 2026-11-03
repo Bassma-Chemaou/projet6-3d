@@ -1,0 +1,37 @@
+# Données lourdes (hébergées sur Drive / Hugging Face Hub)
+data/raw/
+data/processed/
+data/scene/
+*.npy
+*.npz
+*.off
+*.zip
+
+# Modèles et checkpoints
+*.pth
+*.pt
+*.ckpt
+*.ply
+*.splat
+
+# Sorties d'entraînement
+output/
+runs/
+wandb/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Éditeur / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vidéos lourdes
+*.mov
