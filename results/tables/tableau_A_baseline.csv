@@ -1,0 +1,3 @@
+Modèle,Latent,Points,CD test,Params,Durée (min),VRAM max (Go),MMD-CD,COV,1-NNA
+AE PointNet,128,2048,0.006835173834115266,7129728.0,13.4,2.36,,,
+Référence train/test,-,1024,,,,,0.0151,0.545,0.5525
